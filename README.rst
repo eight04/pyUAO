@@ -20,8 +20,8 @@ Usage
 
 .. code:: python
 
-  import uao
-  uao.register() # register big5-uao as a builtin codecs
+  from uao import register_uao
+  register_uao() # register big5-uao as a builtin codecs
   print("无法被Big5編碼の字串♥".encode("big5-uao").decode("big5-uao"))
   
 Or use the standalone ``Big5UAOCodec`` class:

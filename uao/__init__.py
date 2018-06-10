@@ -4,7 +4,7 @@ from struct import Struct
 from .b2u import b2u_table
 from .u2b import u2b_table
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 char_s = Struct("!B")
 short_s = Struct("!H")

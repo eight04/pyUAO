@@ -62,7 +62,6 @@ class Big5UAOCodec(Codec):
                 yield b2u_table[char]
                 i += 1
             else:
-                print(char)
                 b2u_table[char] = chr(char)
                 yield b2u_table[char]
                 i += 1

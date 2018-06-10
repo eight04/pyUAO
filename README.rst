@@ -35,6 +35,6 @@ Or use the standalone ``Big5UAOCodec`` class:
 Changelog
 ---------
 
-* 0.1.0 (Next)
+* 0.1.0 (Jun 11, 2018)
 
   - First release.

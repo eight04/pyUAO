@@ -28,8 +28,8 @@ Or use the standalone ``Big5UAOCodec`` class:
 
 .. code:: python
 
-  from uao import Big5UAOCodecs
-  uao = Big5UAOCodecs()
+  from uao import Big5UAOCodec
+  uao = Big5UAOCodec()
   print(uao.decode(uao.encode("无法被Big5編碼の字串♥")))
       
 Changelog

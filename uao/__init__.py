@@ -75,7 +75,7 @@ def register_uao():
         return
     REGISTERED = True
     def lookup(name):
-        if name == "big5-uao" or name == "big5uao":
+        if name == "big5-uao" or name == "big5uao" or name == "big5_uao":
             return CodecInfo(
                 Big5UAOCodec().encode,
                 Big5UAOCodec().decode,

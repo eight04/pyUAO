@@ -1,8 +1,8 @@
 pyUAO
 =====
 
-.. image:: https://travis-ci.org/eight04/pyUAO.svg?branch=master
-    :target: https://travis-ci.org/eight04/pyUAO
+.. image:: https://github.com/eight04/pyUAO/actions/workflows/test.yml/badge.svg
+    :target: https://github.com/eight04/pyUAO/actions/workflows/test.yml
     
 Big5-UAO table in pure Python.
 
@@ -34,6 +34,10 @@ Or use the standalone ``Big5UAOCodec`` class:
       
 Changelog
 ---------
+
+* 0.2.0 (Feb 22, 2021)
+
+  - Add: support python 3.7~3.9.
 
 * 0.1.1 (Jun 11, 2018)
 

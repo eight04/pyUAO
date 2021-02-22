@@ -1,6 +1,4 @@
+Pygments<3,>=2.2.0
 docutils~=0.12
-twine>=1.6.5,<2
-pyxcute>=0.5.1,<0.6
-sphinx-autobuild>=0.7.1,<0.8
-Pygments>=2.2.0,<3
--e .
+pyxcute==0.6.0
+twine<2,>=1.6.5
